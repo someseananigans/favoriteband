@@ -1,0 +1,130 @@
+#title {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 2cm;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: black;
+}
+
+section {
+    background-color: black;
+}
+
+.carousel {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h2 {
+    padding-top: .5cm;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1cm;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+/* .instrument {
+    font-family: 'Jolly Lodger', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    -webkit-text-orientation: upright;
+} */
+
+#songsList {
+    text-align: center;
+}
+
+p.card-text {
+    text-align: center;
+}
+
+.bname {
+    font-family: 'Jolly Lodger', cursive;
+    margin-bottom: 0;
+    font-size: .5cm;
+    color: white;
+}
+
+.bavatar {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+}
+
+/* Customization to group item (Most Popular Songs */
+.list-group-item {
+    padding: 1rem 1rem;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+#foot {
+    margin-top: .5cm;
+    text-align: center;
+}
+
+#foot h3 {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: .75cm;
+}
+
+#foot p {
+    font-size: .3cm;
+}
+
+#albums {
+    margin-bottom: 1cm;
+}
+
+/* .container {
+    width: 100%;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 6fr 2fr 2fr;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+.heading {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 2cm;
+    text-align: center;
+
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    -webkit-text-orientation:;
+}
+
+.bgimage {
+    background-image: url("./oneokrock.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.songlist {
+    grid-column: 1;
+    grid-row: 3 / span 2;
+}
+.bmembers {
+    grid-column: 2;
+    grid-row: 3;
+}
+.albums {
+    grid-column: 2;
+    grid-row: 4;
+} */

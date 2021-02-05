@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./reset.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-lg">
+        <!-- Band Name -->
+        <header class="row">
+            <h1 id="title">
+                ONE OK ROCK!
+            </h1>    
+        </header>
+        <!-- Carousel of Images -->
+        <section class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./oneokrock.jpg" class="d-block w-100" alt="OneOkRock1">
+                    </div>
+                    <!-- <div class="carousel-item">
+                        <img src="./OOR2.jpg" class="d-block w-100" alt="OneOkRock3">
+                    </div> -->
+                    <div class="carousel-item">
+                        <img src="./OOR1.jpg" class="d-block w-100" alt="OneOkRock2">
+                    </div>
+                    <!-- <div class="carousel-item">
+                        <img src="./OOR3.jpg" class="d-block w-100" alt="OneOkRock4">
+                    </div> -->
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+        <!-- Heighlight Blocks -->
+        <section class=row>
+            <aside class="col" id="Lhighlight">
+                <div class="row">
+                    <h2>Most Popular Songs</h2>
+                </div>
+                <div class="row" id="songsList">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.youtube.com/watch?v=cnM07bF_43w">Wherever You Are</a></li>
+                        <li class="list-group-item"><a href="https://www.youtube.com/watch?v=IGInsosP0Ac">Stand Out to Fit In</a></li>
+                        <li class="list-group-item"><a href="https://www.youtube.com/watch?v=Hh9yZWeTmVM">The Beginning</a></li>
+                        <li class="list-group-item"><a href="https://www.youtube.com/watch?v=9tvU1emWJgY">Wasted Nights</a></li>
+                        <li class="list-group-item"><a href="https://www.youtube.com/watch?v=RGXbvNuFXmY">Yokubou Ni Michita Seinendan</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <aside class="col" id="Rhighlight">
+                <div class="row" id="bMembers">
+                    <h2>Band Members</h2>
+                    <div class="col">
+                        <p class="bname">Takahiro Moruichi</p>
+                        <img class="bavatar" src="./Singer.png" alt="Vocals">
+                        <!-- <p class="instrument">Vocals</p> -->
+                    </div>
+                    <div class="col">
+                            <p class="bname">Toru Yamashita</p>
+                            <img class="bavatar" src="./Guitarist.png" alt="Guitar">
+                            <!-- <p class="instrument">Guitar</p> -->
+                    </div>
+                    <div class="col">
+                        <p class="bname">Ryota Kohama</p>
+                        <img class="bavatar" src="./Bassist.png" alt="Bass">
+                        <!-- <p class="instrument">Bass</p> -->
+                    </div>
+                    <div class="col">
+                        <p class="bname">Tomoya Kanki</p>
+                        <img class="bavatar" src="./Drumer.png" alt="Drums">
+                        <!-- <p class="instrument">Drums</p> -->
+                    </div>
+                </div>
+                <div class="row" id="albums">
+                    <h2>Recent Albums</h2>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/3/3c/One_Ok_Rock_%E2%80%93_Eye_of_the_Storm.png" class="card-img-top" alt="Album 1">
+                            <div class="card-body">
+                                <p class="card-text">Eye of the Storm</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Ambitions_cover.svg/1200px-Ambitions_cover.svg.png" class="card-img-top" alt="Album 2">
+                            <div class="card-body">
+                              <p class="card-text">Ambitions</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67706c0000bebbdcd2d5a83aff8185290846c1" class="card-img-top" alt="Album 3">
+                            <div class="card-body">
+                                <p class="card-text">3MXXXV</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <!-- Footer -->
+        <footer class="row" id="foot">
+            <h3>Rock On!~</h3>
+            <p>Made by Fans for Fans</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+</html>
